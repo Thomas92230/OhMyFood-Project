@@ -153,4 +153,111 @@ h1 {
   main {
     background-color: #f8f8f8;
   }
+
+  /*l’ensemble des cards*/
+.restaurants {
+  background-color: #eeeeee;
+  padding: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: auto;
+  height: auto;
+}
+.restaurants h3 {
+  font-family: "roboto";
+  font-size: 1.5em;
+  padding: 50px 10px 0;
+}
+.restaurants .choix_wrapper article {
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .restaurants .choix_wrapper article {
+    width: 24%;
+  }
+}
+.restaurants .choix_wrapper article > .like {
+  position: absolute;
+  bottom: 60px;
+  right: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .restaurants .choix_wrapper {
+    flex-direction: row;
+    column-gap: 15px;
+  }
+}
+
+/*cards séparement*/
+.card_restaurant {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  z-index: 1;
+}
+.card_restaurant_image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card_restaurant .mention_nouveau {
+  background-color: #99e2d0;
+  color: #1b6150;
+  padding: 10px 15px;
+  border-radius: 5px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-weight: bolder;
+}
+.card_restaurant_description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 25%;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 17px 30px 20px 15px;
+  margin-bottom: 20px;
+}
+.card_restaurant_title {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+/*Trait vert sous les sous-titres*/
+.souligne {
+  font-size: 1.3em;
+  padding-bottom: 3px;
+  border-bottom: 3px solid #99E2D0;
+  width: 40px;
+}
+
+.choix_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  .choix_wrapper {
+    flex-direction: row;
+    column-gap: 15px;
+  }
+}
   
