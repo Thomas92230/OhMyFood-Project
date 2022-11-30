@@ -1,0 +1,22 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 25px;
+  }
+  .logo a {
+    /*La taille occupée dans l’espace disponible*/
+    flex: 1;
+    /* position sur l'axe Z dans un espace 3D*/
+    z-index: 1;
+    font-size: 1.5em;
+  }
+  /*Logo*/
+h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+  }
