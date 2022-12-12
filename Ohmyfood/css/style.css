@@ -211,7 +211,7 @@ h1 {
 .presentation h3 {
   text-align: center;
   font-family: "roboto";
-  font-size: 1.5em;
+  font-size: 2.5em;
   padding: 0 30px 0 30px;
 }
 
@@ -244,7 +244,7 @@ h1 {
 
 @media screen and (min-width: 1024px) {
   .explorer {
-    width: 300px;
+    width: 220px;
   }
 }
 .explorer:hover {
@@ -398,6 +398,8 @@ h1 {
 .etapes h3 {
   font-size: 1.5em;
   font-family: "roboto";
+  margin-left: 170px;
+  margin-bottom: 20px;
 }
 
 /*chargement page*/
@@ -556,13 +558,13 @@ main {
 
 .fond2 {
   height: 400px;
-  background-image: url("../images/restaurants/charonne.jpg");
+  background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
   background-size: cover;
 }
 
 .fond3 {
   height: 400px;
-  background-image: url("../images/restaurants/cite.jpg");
+  background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
   background-size: cover;
 }
 
@@ -593,8 +595,48 @@ main {
 
 @media screen and (min-width: 1024px) {
   .choix_wrapper {
-    flex-direction: row;
+    flex-direction: column;
     column-gap: 15px;
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+
+  .menu {
+    width: 70%;
+    margin-left: 220px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .categorie {
+    margin-left: 150px;
+  }
+
+  .menu .header_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 13px 31px 0px 31px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 315px;
+    margin-right: -80px;
+  }
+  .like {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    margin-left: 50px;
+  }
+
+  .fond3 {
+    height: 600px;
+    background-position: center;
   }
 }
 
