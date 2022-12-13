@@ -618,10 +618,9 @@ main {
     justify-content: flex-start;
     align-items: center;
     padding: 13px 31px 0px 31px;
+    margin: 0 auto;
     margin-bottom: 30px;
     margin-top: 50px;
-    margin-left: 315px;
-    margin-right: -80px;
   }
   .like {
     display: flex;
