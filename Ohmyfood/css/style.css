@@ -398,7 +398,6 @@ h1 {
 .etapes h3 {
   font-size: 1.5em;
   font-family: "roboto";
-  margin-left: 170px;
   margin-bottom: 20px;
 }
 
@@ -650,6 +649,20 @@ main {
   .fond4 {
     height: 600px;
     background-position: center;
+  }
+
+  .etapes h3 {
+    font-size: 1.5em;
+    font-family: "roboto";
+    margin-left: 170px;
+    margin-bottom: 20px;
+  }
+
+  .restaurants h3 {
+    font-family: "roboto";
+    font-size: 1.5em;
+    padding: 50px 10px 0;
+    margin-left: 170px;
   }
 }
 
